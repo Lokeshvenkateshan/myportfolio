@@ -1,0 +1,155 @@
+#contents{
+    padding-top: 30px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%; 
+    margin: auto;
+    padding: 50px 20px;
+    gap: 50px;
+
+}
+
+
+.bio1 {
+    flex: 1; 
+    max-width: 50%;
+    margin-top: 30px;
+    transition: all 0.2s 
+}
+
+.bio1 h3 {
+    font-size: 35px;
+    margin-bottom: 7px;
+}
+
+.bio1 h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 11px;
+}
+
+.bio1 h4 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+#typed-text {
+    color: #8C48F0;
+    font-weight: bold;
+    border-right: 3px solid #8C48F0; 
+    padding-right: 5px;
+    animation: blink 0.9s infinite;
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+
+.bio1 span {
+    color: #8C48F0; 
+    font-weight: bold;
+}
+.bio1 p {
+    font-size: 16px;
+    color: #f2f3f495;
+    line-height: 1.8;
+    margin-top: 5px;
+}
+
+.bio1-btn {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px; 
+}
+.btn {
+    background: linear-gradient(225deg, rgb(132, 0, 255) 0%, rgb(230, 0, 255) 100%) padding-box;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    text-transform: uppercase;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    flex: 1; 
+    max-width: 180px; 
+    text-align: center;
+}
+.btn:hover {
+    background: linear-gradient(225deg, rgb(106, 1, 204) 0%, rgb(223, 57, 241) 100%) padding-box;
+    transform: scale(1.05);
+}
+.bio2 {
+    flex: 1; 
+    max-width: 50%;
+    text-align: center; 
+}
+.lokesh img {
+    width: 50%; 
+    position: relative;
+    /* max-width: 250px; */
+    border-radius: 50%; 
+    animation: floatAnimation 3s ease-in-out infinite;
+    z-index: 1;
+}
+@keyframes floatAnimation {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); } 
+    100% { transform: translateY(0px); } 
+}
+@media screen and (max-width: 768px){
+    #contents{
+        padding-top: 5px;
+    }
+    .main {
+        flex-direction: column; 
+        text-align: center;
+    }
+    .bio1{
+        margin-top: 0px;
+    }
+    .bio2 {
+        order: -1; 
+    }
+
+    .bio1, .bio2 {
+        max-width: 100%;
+    }
+    .bio h3{
+        font-size: 28px;
+    }
+    .bio1 h1 {
+        font-size: 35px;
+        margin-top: 4px;
+        margin-bottom: 5px;
+    }
+
+    .bio1 h4 {
+        font-size: 20px;
+        margin-bottom: 3px;
+    }
+
+    .bio1 p {
+        font-size: 14px;
+    }
+    .bio1-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 100%; 
+        margin-bottom: 10px; 
+    }
+    .bio2 img {
+        width: 55%;
+    }
+}

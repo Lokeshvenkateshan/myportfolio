@@ -1,0 +1,21 @@
+.progress-bar-con {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3.5px;
+    background-color: #191924;
+    z-index: 1000;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    width: 0%;
+    background-color: #8C48F0; /* Blue color */
+    transition: width 0.2s ease-out;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  

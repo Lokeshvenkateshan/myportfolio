@@ -1,0 +1,32 @@
+.footer{
+    text-align: center;
+    margin-top: 100px;
+    background-color: #171721;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.footer h3{
+    color: #8C48F0;
+    font-size: 25px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: .3s;
+}
+.foot-img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+.foot-img:hover{
+    transform: scale(1.05);
+}
+@media screen and (max-width: 768px){
+    .footer{
+        margin-top: 50px;
+    }
+}
