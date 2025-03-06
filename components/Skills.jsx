@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styling/Skills.css'
+import htmlimg from '../src/assets/skillimg/html-5.png'
 
 const Skills = () => {
   return (
@@ -14,7 +15,7 @@ const Skills = () => {
             <div class="skills-box">
               
               <div class="box first">
-                <img src="../src/assets/skillimg/html-5.png" alt="photo" />
+                <img src={htmlimg} alt="photo" />
                 <p>HTML</p>
               </div>
 
