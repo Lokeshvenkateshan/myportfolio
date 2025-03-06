@@ -1,6 +1,16 @@
 import React from 'react'
 import '../styling/Skills.css'
 import htmlimg from '../src/assets/skillimg/html-5.png'
+import cssimg from '../src/assets/skillimg/css-3.png'
+import jsimg from '../src/assets/skillimg/js.png'
+import bootstrapimg from '../src/assets/skillimg/bootstrap.png'
+import reactimg from '../src/assets/skillimg/react.png'
+import nodejsimg from '../src/assets/skillimg/nodejs.png'
+import mysqlimg from '../src/assets/skillimg/mysql.png'
+import mongodbimg from '../src/assets/skillimg/mongodb.png'
+import firebaseimg from '../src/assets/skillimg/firebase.png'
+import gitimg from '../src/assets/skillimg/git.png'
+import vscodeimg from '../src/assets/skillimg/vscode.png'
 
 const Skills = () => {
   return (
@@ -20,22 +30,22 @@ const Skills = () => {
               </div>
 
               <div class="box second" >
-                <img src="../src/assets/skillimg/css-3.png" alt="photo" />
+                <img src={cssimg} alt="photo" />
                 <p>CSS</p>
               </div>
 
               <div class="box second">
-                <img src="../src/assets/skillimg/js.png" alt="photo" />
+                <img src={jsimg} alt="photo" />
                 <p>Javascript</p>
               </div>
 
               <div class="box first ">
-                <img src="../src/assets/skillimg/bootstrap.png" alt="photo" />
+                <img src={bootstrapimg} alt="photo" />
                 <p>Bootstrap</p>
               </div>
 
               <div class="box first">
-                <img src="../src/assets/skillimg/react.png" alt="photo" />
+                <img src= {reactimg} alt="photo" />
                 <p>React</p>
               </div>
 
@@ -52,22 +62,22 @@ const Skills = () => {
               
 
               <div class="box first">
-                <img src="../src/assets/skillimg/nodejs.png" alt="photo" />
+                <img src={nodejsimg} alt="photo" />
                 <p>Node Js</p>
               </div>
 
               <div class="box second">
-                <img src="../src/assets/skillimg/mysql.png" alt="photo" />
+                <img src={mysqlimg} alt="photo" />
                 <p>MySQL</p>
               </div>
 
               <div class="box second">
-                <img src="../src/assets/skillimg/mongodb.png" alt="photo" />
+                <img src={mongodbimg} alt="photo" />
                 <p>Mongo DB</p>
               </div>
 
               <div class="box first">
-                <img src="../src/assets/skillimg/firebase.png" alt="photo" />
+                <img src={firebaseimg} alt="photo" />
                 <p>Firebase</p>
               </div>
 
@@ -83,12 +93,12 @@ const Skills = () => {
               
 
               <div class="box first">
-                <img src="../src/assets/skillimg/git.png" alt="photo" />
+                <img src={gitimg} alt="photo" />
                 <p>Git</p>
               </div>
 
               <div class="box second">
-                <img src="../src/assets/skillimg/vscode.png" alt="photo" />
+                <img src={vscodeimg} alt="photo" />
                 <p>VS code</p>
               </div>
 

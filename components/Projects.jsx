@@ -1,5 +1,11 @@
 import React from 'react'
 import '../styling/Projects.css'
+import travelmateimg from '../src/assets/projectimg/travelmate.png'
+import geminiimg from '../src/assets/projectimg/gemini.png'
+import dictionaryimg from '../src/assets/projectimg/dictionary.png'
+import weatherimg from '../src/assets/projectimg/weather.png'
+import ecomimg from '../src/assets/projectimg/ecommerce.png'
+import fyloimg from '../src/assets/projectimg/fylo.png'
 
 const Projects = () => {
   return (
@@ -10,7 +16,7 @@ const Projects = () => {
         <div class="cards">
 
           <div class="project-card">
-            <img src="../src/assets/projectimg/travelmate.png" alt="Project Image" />
+            <img src={travelmateimg} alt="Project Image" />
             <div class="project-info">
               <h3>TravelMate AI</h3>
               <p>
@@ -35,7 +41,7 @@ const Projects = () => {
 
 
           <div class="project-card">
-            <img src="../src/assets/projectimg/gemini.png" alt="Project Image" />
+            <img src={geminiimg} alt="Project Image" />
             <div class="project-info">
               <h3>Gemini Clone</h3>
               <p>
@@ -61,7 +67,7 @@ const Projects = () => {
 
 
           <div class="project-card">
-            <img src="../src/assets/projectimg/dictionary.png" alt="Project Image" />
+            <img src={dictionaryimg} alt="Project Image" />
             <div class="project-info">
               <h3>E-Dictionary</h3>
               <p>
@@ -87,7 +93,7 @@ const Projects = () => {
 
 
           <div class="project-card">
-            <img src="../src/assets/projectimg/weather.png" alt="Project Image" />
+            <img src={weatherimg} alt="Project Image" />
             <div class="project-info">
               <h3>Weather Forecast</h3>
               <p>
@@ -114,7 +120,7 @@ const Projects = () => {
 
 
           <div class="project-card">
-            <img src="../src/assets/projectimg/ecommerce.png" alt="Project Image" />
+            <img src={ecomimg} alt="Project Image" />
             <div class="project-info">
               <h3>ECommerce</h3>
               <p style={{paddingTop: '20px', paddingBottom: '20px'}}>
@@ -138,7 +144,7 @@ const Projects = () => {
           </div>
 
           <div class="project-card">
-            <img src="../src/assets/projectimg/fylo.png" alt="Project Image" />
+            <img src={fyloimg} alt="Project Image" />
             <div class="project-info">
               <h3>Fylo</h3>
               <p style={{paddingTop: '10px', paddingBottom: '10px'}}>
