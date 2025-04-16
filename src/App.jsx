@@ -53,6 +53,8 @@ function App() {
             <Contact/>
           </section>
         </div>
+
+        
       }
     </div>
   )
