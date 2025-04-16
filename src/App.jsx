@@ -45,9 +45,9 @@ function App() {
             <Projects/>
           </section>
 
-          <section id='quote-sec'>
+          {/* <section id='quote-sec'>
             <Quote/>
-          </section>
+          </section> */}
 
           <section id='contact-sec'>
             <Contact/>
