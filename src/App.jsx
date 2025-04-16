@@ -78,14 +78,15 @@ function App() {
             <Contact />
           </section>
 
-          <section className="testing purpose">
+          {/* <section className="testing purpose">
             <div>
               <h1>App</h1>
               {showInstallBtn && (
                 <button onClick={handleInstallClick} className="btn">Install App</button>
               )}
             </div>
-          </section>
+          </section> */}
+
         </div>
       )}
     </div>
